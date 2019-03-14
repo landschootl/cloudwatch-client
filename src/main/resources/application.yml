@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cloudwatch-client
+
+cloudwatch:
+  accesskey: ${CLOUDWATCH_ACCESS_KEY}
+  secretkey: ${CLOUDWATCH_SECRET_KEY}
+  region: eu-west-1
+  namespace: "NAME/metric"
